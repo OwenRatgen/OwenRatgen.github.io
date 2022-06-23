@@ -421,7 +421,7 @@ header {
     background-color: #008CBA;
   }
   
-  .portfolio__item:hover .portfolio__overlay {
+  .portfolio__item:hover .portfolio__overlay .portfolio__item:active {
     visibility: visible;
     opacity: 1;
   }
