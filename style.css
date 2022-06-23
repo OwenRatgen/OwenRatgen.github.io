@@ -417,6 +417,8 @@ header {
     color: white;
     position: relative;
     padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -438,12 +440,7 @@ header {
     background-color: #008CBA;
   }
   
-  .portfolio__item:hover .portfolio__overlay {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .portfolio__item:active {
+  .portfolio__item:hover .portfolio__overlay, .portfolio__item:active .portfolio__overlay {
     visibility: visible;
     opacity: 1;
   }
