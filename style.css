@@ -240,6 +240,10 @@ header {
     position: relative;
 }
 
+.section__title--intro {
+    color: var(--clr-light);
+}
+
 .intro__img {
     box-shadow: var(--bs);
 }
@@ -264,6 +268,10 @@ header {
         z-index: 2;
     }
 
+    .section__title--intro {
+        color: var(--clr-light);
+    }
+
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 / 1;
@@ -282,6 +290,14 @@ header {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 18em;
+    /* color: var(--clr-light); */
+}
+
+.section__title--about {
+    color: var(--clr-light);
+}
+
+.about-me__body {
     color: var(--clr-light);
 }
 
@@ -294,6 +310,7 @@ header {
             "subtitle img"
             "text img";
         grid-column-gap: 2em;
+        color: var(--clr-light);
     }
 
     .section__title--about {
@@ -421,7 +438,12 @@ header {
     background-color: #008CBA;
   }
   
-  .portfolio__item:hover .portfolio__overlay .portfolio__item:active {
+  .portfolio__item:hover .portfolio__overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .portfolio__item:active {
     visibility: visible;
     opacity: 1;
   }
