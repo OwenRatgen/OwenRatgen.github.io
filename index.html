@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This line makes it so the website can work on a computer and mobile devices -->
+        <title>Owen Ratgen Portfolio Website</title>
+        <i class="fa-light fa-laptop-code"></i>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+        <link rel="stylesheet" href="all.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">        <!-- This link makes it so each browser will make this webpage look the same -->
+        <!-- Used for the social icons -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <!-- Links for navigation bar -->
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#sawe" class="nav__link">School and Work Experiences</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home" data-aos="fade-up" data-aos-delay="700" data-aos-duration="2800">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Owen Ratgen</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Junior at University of Minnesota</p>
+            <img src="images/DEF625E7-E868-4DE3-B122-E3A29DD6A7A9_1_201_a.jpeg" alt="Picture of me" class="intro__img">
+
+        </section>
+        <!-- End Introduction -->
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">More about me</h2>
+            <p class="section__subtitle section__subtitle--about" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
+                Born & raised in Minnesota
+            </p>
+
+            <div class="about-me__body" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
+                <p>Ever since I was young, I have been fascinated with technology. I have fond memories of taking apart my old electronic toys and look at the wiring wondering how it worked. I have dug deeper into this fascination by majoring in Computer Science at the University of Minnesota. I am currently in my 3rd year and will graduate with a Bachelors of Science in May 2024. I will always step up to the plate no matter how difficult something is. I will not give up until the task at hand is finished and I am not afraid to make mistakes. Where one may look at a mistake and see it as a failure, I see it as an opportunity to learn and move forward. I am driven by curiostiy and ambition which is something that has helped me excel in all areas of my life.</p>
+                <p>Outside of school I am passionate about a number of other things. I am apart of the Club Lacrosse team at the University of Minnesota and this past season we ended up winning our conference and placed 7th at the MCLA National Championship. I am also involved in Greek Life at the University of Minnesota (Beta Theta Pi - Beta Pi Chapter) where I have taken the opportunity to gain leadership experience. I am currently the VP of Recruitment where I have furthered my communication and leadership skills which is something I take very seriously.</p>
+            </div>
+
+            <img src="images/F3D62D03-00C2-4E14-8156-95062AC36DE9.JPG" alt="Owen Standing in Front of a Black Bear" class=about-me__img data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
+        </section>
+        <!-- End About Me -->
+
+        <!-- School and Work Experiences -->
+        <section class="school-and-work-experiences" id="sawe">
+            <h2 class="section__title section__title--sawe" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">Work Experiences</h2>
+            <div class="sawe-div">
+
+                <div class="sawes" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1900">
+                    <h3>Infor</h3>
+                    <p>
+                        I am currently working at Infor as a Development Intern. This is my first exposure to the Software Engineering field in a professional setting. So far I have been working with the databases by using SQL, writing backend test cases using Java, and writing frontend tests using JavaScript where I make sure everything in the UI is working as it should.
+                    </p>
+                </div> <!-- /work-experience-1 -->
+
+                <div class="sawes" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1900">
+                    <h3>Mains'l</h3>
+                    <p>
+                        During the school year, I am employed under Mains'l as a Professional Care Attendant. I have been working here since 2014. On a daily basis I supervise children and adults with special needs. I communicate with them and their parents what their needs are until they are met and I also facilitate the transportation between home, school, and other activities.
+                    </p>
+                </div> <!-- /work-experience-2 -->
+
+            </div>
+
+            <a href="#work" class="btn" data-aos="zoom-out" aos-duration="4000">My Work</a>
+
+        </section>
+        <!--- End School and Work Experiences -->
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <div class="my-work__titles" data-aos="fade-down" data-aos-delay="100">
+                <h2 class="section__title">My work</h2>
+                <p class="section__subtitle--mw">A few projects that I have recently done:</p>
+            </div>
+
+            <div class="portfolio">
+                <!-- Portfolio Item 01 -->
+                <div class="portfolio__item" data-aos="fade-right" data-aos-delay="100" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="https://about.twitter.com/content/dam/about-twitter/en/brand-toolkit/brand-download-img-1.jpg.twimg.1920.jpg" alt="Twitter Logo" class="portfolio__img">
+                    <div class="portfolio__overlay">
+                        <p class="portfolio__description">I created a Motivational Twitter Bot by using Python and Twitter API to configure it and make it reply to a user’s tweet with a motivational quote if it contains the keyword “Motivation”. The bot was created by using File IO techniques and I integrated it into AWS Lambda which uses a trigger (EventBridge) that runs the program on a periodic basis.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 02 -->
+                <div class="portfolio__item" data-aos="fade-up" data-aos-delay="200" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="https://img.favpng.com/24/6/18/hedge-maze-labyrinth-puzzle-png-favpng-vbZH7m2fPEVPwD3P11KjSQwDu.jpg" alt="Maze" class="portfolio__img">
+                    <div class="portfolio__overlay">
+                        <p class="portfolio__description">I was taking a class at the University of Minnesota that was teaching data structures and algorithims at the time of this project. I took what I learned and implemented stacks and queues using Java, breadth-first search, and depth-first search to generate a random maze then have the program solve that randomly generated maze in the terminal.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 03 -->
+                <div class="portfolio__item" data-aos="fade-left" data-aos-delay="100" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2021/3/JB/CY/CQ/83906125/website-developer-500x500.jpg" alt="Website" class="portfolio__img">
+                    <div class="portfolio__overlay">
+                        <p class="portfolio__description">I wanted to learn some web development skills and I did that by creating this website. I used resources on the internet to guide me through this project. I used HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End My Work -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:ratgenowen@gmail.com" class="footer-link">Contact Me: ratgenowen@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/owen-ratgen-666899200"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/OwenRatgen"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </footer>
+        <!-- End Footer -->
+
+        <script src="js/main.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+
+          
+
+    </body>
+</html>
