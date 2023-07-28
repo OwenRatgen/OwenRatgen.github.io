@@ -263,7 +263,7 @@ header {
 
     .intro__img {
         grid-area: img;
-        min-width: 250px;
+        min-width: 500px;
         position: relative;
         z-index: 2;
     }
@@ -330,7 +330,8 @@ header {
     }
 
     .about-me__img {
-        position: relative
+        position: relative;
+        max-width: 
     }
 }
 
