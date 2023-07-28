@@ -23,10 +23,3 @@ AOS.init({
         $(this).toggleClass('hover_effect');
     });
 });
-
-$(document).ready(function() {
-    $('.hover').on('click', function(e) {
-        e.preventDefault();
-        $(this).toggleClass('hover_effect');
-    });
-});
