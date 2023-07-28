@@ -439,10 +439,17 @@ header {
     transition: .5s ease;
     background-color: #008CBA;
   }
-  
-  .portfolio__item:hover .portfolio__overlay, .portfolio__item.hover_effect {
+
+.portfolio__item:hover .portfolio__overlay, .portfolio__item.hover_effect {
     visibility: visible;
     opacity: 1;
+    }
+
+  @media (hover: none) {
+    .portfolio__item .portfolio__overlay {
+        visibility: visible;
+        opacity: 0.88;
+    }
   }
 
 /* Footer */
