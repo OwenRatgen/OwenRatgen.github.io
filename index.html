@@ -1,143 +1,329 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This line makes it so the website can work on a computer and mobile devices -->
-        <title>Owen Ratgen Portfolio Website</title>
-        <i class="fa-light fa-laptop-code"></i>
-        <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
-        <link rel="stylesheet" href="all.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">        <!-- This link makes it so each browser will make this webpage look the same -->
-        <!-- Used for the social icons -->
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This line makes it so the website can work on a computer and mobile devices -->
+    <title>Owen Ratgen Portfolio Website</title>
+    <i class="fa-light fa-laptop-code"></i>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <!-- This link makes it so each browser will make this webpage look the same -->
+    <!-- Used for the social icons -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
 
-    <body>
-        
-        <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <!-- Links for navigation bar -->
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#sawe" class="nav__link">School and Work Experiences</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-                </ul>
-            </nav>
-        </header>
+  <body>
 
-        <!-- Introduction -->
-        <section class="intro" id="home" data-aos="fade-up" data-aos-delay="700" data-aos-duration="2800">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Owen Ratgen</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Senior at University of Minnesota</p>
-            <img src="images/D047790F-03DA-41C3-849B-89C61394F3BF_1_201_a.jpeg" alt="Picture of me" class="intro__img">
+    <!-- Introduction -->
+    <section
+      class="intro"
+      id="home"
+      data-aos="fade-up"
+      data-aos-delay="700"
+      data-aos-duration="2800"
+    >
+      <h1 class="section__title section__title--intro">
+        Hi, I'm <strong>Owen Ratgen</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Masters Student at University of Minnesota
+      </p>
+      <img
+        src="images/D047790F-03DA-41C3-849B-89C61394F3BF_1_201_a.jpeg"
+        alt="Picture of me"
+        class="intro__img"
+      />
+    </section>
+    <!-- End Introduction -->
 
-        </section>
-        <!-- End Introduction -->
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Skills</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Aspiring Full Stack Developer
+      </p>
 
-        <!-- About Me -->
-        <section class="about-me" id="about">
-            <h2 class="section__title section__title--about" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">More about me</h2>
-            <p class="section__subtitle section__subtitle--about" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
-                Born & raised in Minnesota
+      <div
+        class="about-me__body"
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-duration="2000"
+      >
+        <div class="frontend-skills">
+          <h3>Frontend</h3>
+          <div class="frontend-icon-container"></div>
+        </div>
+
+        <div class="backend-skills">
+          <h3>Backend</h3>
+          <div class="backend-icon-container"></div>
+        </div>
+        <!-- <p>
+          Ever since I was young, I have been fascinated with technology. I have
+          fond memories of taking apart my old electronic toys and look at the
+          wiring wondering how it worked. I have dug deeper into this
+          fascination by majoring in Computer Science at the University of
+          Minnesota. I am currently in my 4th year and will graduate with a
+          Bachelors of Science in May 2024. I was also recently admitted to the
+          Integrated Masters Program at UMN and will be graduating with my
+          Masters of Science in 2025. I will always step up to the plate no
+          matter how difficult something is. I will not give up until the task
+          at hand is finished and I am not afraid to make mistakes. Where one
+          may look at a mistake and see it as a failure, I see it as an
+          opportunity to learn and move forward. I am driven by curiostiy and
+          ambition which is something that has helped me excel in all areas of
+          my life.
+        </p>
+        <p>
+          Outside of school I am passionate about a number of other things. I am
+          apart of the Club Lacrosse team at the University of Minnesota and
+          during my tenure we placed 7th at the 2022 MCLA National Championship.
+          I am also involved in Greek Life at the University of Minnesota (Beta
+          Theta Pi - Beta Pi Chapter) where I have taken the opportunity to gain
+          leadership experience. I am currently the VP of Recruitment where I
+          have furthered my communication and leadership skills which is
+          something I take very seriously.
+        </p> -->
+      </div>
+
+      <!-- <img
+        src="images/F3D62D03-00C2-4E14-8156-95062AC36DE9.JPG"
+        alt="Owen Standing in Front of a Black Bear"
+        class="about-me__img"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="3000"
+      /> -->
+    </section>
+    <!-- End About Me -->
+
+    <!-- School and Work Experiences -->
+    <section>
+      <div class="internship-experience">
+        <div class="school-and-work-experiences" id="sawe">
+          <h2
+            class="section__title section__title--sawe"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            data-aos-duration="1500"
+          >
+            Work Experiences
+          </h2>
+          <div class="sawe__title">
+            <h3>Infor</h3>
+            <h5>May 2022 - September 2022</h5>
+          </div>
+
+          <div class="sawe-div">
+            <!-- /work-experience-1 -->
+            <img src="images/infor_logo.jpg" class="infor-logo" />
+            <p class="sawe-div__description">
+              During the summer of 2022, I was working at Infor as a Development
+              Intern. This was my first exposure to the Software Engineering
+              field in a professional setting. I created an internal tool that
+              keeps track of every order and information on that order. For this
+              project I used JavaScript in the frontend and Java in the backend.
+              I also worked with the databases by using SQL, wrote backend test
+              cases using Java, and wrote frontend tests using JavaScript where
+              I make sure everything in the UI is working as it should
+              throughout the duration of my intership.
             </p>
+          </div>
 
-            <div class="about-me__body" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
-                <p>Ever since I was young, I have been fascinated with technology. I have fond memories of taking apart my old electronic toys and look at the wiring wondering how it worked. I have dug deeper into this fascination by majoring in Computer Science at the University of Minnesota. I am currently in my 4th year and will graduate with a Bachelors of Science in May 2024. I was also recently admitted to the Integrated Masters Program at UMN and will be graduating with my Masters of Science in 2025. I will always step up to the plate no matter how difficult something is. I will not give up until the task at hand is finished and I am not afraid to make mistakes. Where one may look at a mistake and see it as a failure, I see it as an opportunity to learn and move forward. I am driven by curiostiy and ambition which is something that has helped me excel in all areas of my life.</p>
-                <p>Outside of school I am passionate about a number of other things. I am apart of the Club Lacrosse team at the University of Minnesota and during my tenure we placed 7th at the 2022 MCLA National Championship. I am also involved in Greek Life at the University of Minnesota (Beta Theta Pi - Beta Pi Chapter) where I have taken the opportunity to gain leadership experience. I am currently the VP of Recruitment where I have furthered my communication and leadership skills which is something I take very seriously.</p>
-            </div>
+          <div class="sawe__title">
+            <h3>SPS Commerce</h3>
+            <h5>June 2023 - December 2023</h5>
+          </div>
 
-            <img src="images/F3D62D03-00C2-4E14-8156-95062AC36DE9.JPG" alt="Owen Standing in Front of a Black Bear" class=about-me__img data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
-        </section>
-        <!-- End About Me -->
+          <div class="sawe-div">
+            <!-- <div
+              class="sawes"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1900"
+            > -->
+            <img src="images/sps_logo3.webp" class="sps-logo" />
+            <p class="sawe-div__description">
+              During my time at SPS Commerce, I worked on integrating a new
+              GraphQL server on one of the companies existing tools using
+              TypeScript. I have also added additonal functionality to the tool
+              to increase utilization. This project forced me to get comfortable
+              with backend development and has given me the desire to further my
+              learnings within backend development. My biggest takeaway from
+              this internship is that in order to truly grow within anything,
+              you must make yourself become uncomfortable because that is where
+              new ideas flourish.
+            </p>
+          </div>
+          <!-- /work-experience-2 -->
 
-        <!-- School and Work Experiences -->
-        <section class="school-and-work-experiences" id="sawe">
-            <h2 class="section__title section__title--sawe" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">Work Experiences</h2>
-            <div class="sawe-div">
+          <div class="sawe__title">
+            <h3>Trane Technologies</h3>
+            <h4>May 2024 - Present</h4>
+          </div>
 
-                <div class="sawes" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1900">
-                    <h3>SPS Commerce</h3>
-                    <p>
-                       I currently am interning at SPS Commerce as a Software Engineering Intern. During my time here, I have been working on integrating a new GraphQL server on one of the companies existing tools using TypeScript. I have also added new data sources to the tool to increase utilization. This project has forced me to get comfortable with backend development (something I struggled with at Infor) and has given me the skillset to become a backend developer in the future. My biggest takeaway from this internship is that in order to truly grow within anything, you must make yourself become uncomfortable because that is where new ideas flourish.
-                    </p>
-                </div> <!-- /work-experience-1 -->
-                <div class="sawes" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1900">
-                    <h3>Infor</h3>
-                    <p>
-                        During the summer of 2022, I was working at Infor as a Development Intern. This was my first exposure to the Software Engineering field in a professional setting. I created an internal tool that keeps track of every order and information on that order. For this project I used JavaScript in the frontend and Java in the backend. I also worked with the databases by using SQL, wrote backend test cases using Java, and wrote frontend tests using JavaScript where I make sure everything in the UI is working as it should throughout the duration of my intership.
-                    </p>
-                </div> <!-- /work-experience-2 -->
+          <div class="sawe-div">
+            <!-- <div
+              class="sawes"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1900"
+            > -->
+            <img src="images/trane_logo.png" class="trane-logo" />
+            <p class="sawe-div__description">
+              During my time at SPS Commerce, I worked on integrating a new
+              GraphQL server on one of the companies existing tools using
+              TypeScript. I have also added additonal functionality to the tool
+              to increase utilization. This project forced me to get comfortable
+              with backend development and has given me the desire to further my
+              learnings within backend development. My biggest takeaway from
+              this internship is that in order to truly grow within anything,
+              you must make yourself become uncomfortable because that is where
+              new ideas flourish.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
 
-            </div>
+      <a href="#work" class="btn" data-aos="zoom-out" aos-duration="4000"
+        >My Work</a
+      >
+    </section>
+    <!--- End School and Work Experiences -->
 
-            <a href="#work" class="btn" data-aos="zoom-out" aos-duration="4000">My Work</a>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <div class="my-work__titles" data-aos="fade-down" data-aos-delay="100">
+        <h2 class="section__title">My work</h2>
+        <p class="section__subtitle--mw">
+          A few projects that I have recently done:
+        </p>
+      </div>
 
-        </section>
-        <!--- End School and Work Experiences -->
+      <div class="portfolio">
+        <!-- Portfolio Item 01 -->
+        <div
+          class="portfolio__item"
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png"
+            alt="Spotify Logo"
+            class="portfolio__img"
+          />
+          <div class="portfolio__overlay">
+            <p class="portfolio__description">
+              My friend and I created a Spotify Web App that pulls a users data
+              and populates it in a dashboard that we created ourselves.
+              Throughout the duration of this project I was exposed to many new
+              technologies like React JS, MongoDB, and Spotify API. This full
+              stack project increased my collaboration skills and my exposure to
+              full stack web apps as well.
+            </p>
+          </div>
+        </div>
 
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <div class="my-work__titles" data-aos="fade-down" data-aos-delay="100">
-                <h2 class="section__title">My work</h2>
-                <p class="section__subtitle--mw">A few projects that I have recently done:</p>
-            </div>
+        <!-- Portfolio Item 02 -->
+        <div
+          class="portfolio__item"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
+          <img
+            src="data:image/png;base64,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"
+            alt="Drone"
+            class="portfolio__img"
+          />
+          <div class="portfolio__overlay">
+            <p class="portfolio__description">
+              I was taking a class at the University of Minnesota that was
+              teaching real world software development practices at the time of
+              this project. Our goal was to create a drone simulation that picks
+              up and drops off a customer efficiently. I led the project as
+              scrum master by coordinating daily standups, creating and
+              assigning tasks over the course of multiple sprints, and making
+              sure we were on track to finish our goal that we made for each
+              sprint.
+            </p>
+          </div>
+        </div>
 
-            <div class="portfolio">
-                <!-- Portfolio Item 01 -->
-                <div class="portfolio__item" data-aos="fade-right" data-aos-delay="100" data-aos-easing="linear" data-aos-duration="1000">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png" alt="Spotify Logo" class="portfolio__img">
-                    <div class="portfolio__overlay">
-                        <p class="portfolio__description">My friend and I created a Spotify Web App that pulls a users data and populates it in a dashboard that we created ourselves. Throughout the duration of this project I was exposed to many new technologies like React JS, MongoDB, and Spotify API. This full stack project increased my collaboration skills and my exposure to full stack web apps as well.</p>
-                    </div>
-                </div>
+        <!-- Portfolio Item 03 -->
+        <div
+          class="portfolio__item"
+          data-aos="fade-left"
+          data-aos-delay="100"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
+          <img
+            src="https://5.imimg.com/data5/SELLER/Default/2021/3/JB/CY/CQ/83906125/website-developer-500x500.jpg"
+            alt="Website"
+            class="portfolio__img"
+          />
+          <div class="portfolio__overlay">
+            <p class="portfolio__description">
+              I wanted to learn some web development skills to help myself
+              understand the processes so I did exactly that by creating this
+              website. I used resources on the internet to guide me through this
+              project. I used HTML, CSS, and JavaScript. This project gave me
+              some of my first exposure with how to create and manage a website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End My Work -->
 
-                <!-- Portfolio Item 02 -->
-                <div class="portfolio__item" data-aos="fade-up" data-aos-delay="200" data-aos-easing="linear" data-aos-duration="1000">
-                    <img src="data:image/png;base64,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" alt="Drone" class="portfolio__img">
-                    <div class="portfolio__overlay">
-                        <p class="portfolio__description">I was taking a class at the University of Minnesota that was teaching real world software development practices at the time of this project. Our goal was to create a drone simulation that picks up and drops off a customer efficiently. I led the project as scrum master by coordinating daily standups, creating and assigning tasks over the course of multiple sprints, and making sure we were on track to finish our goal that we made for each sprint. </p>
-                    </div>
-                </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:ratgenowen@gmail.com" class="footer-link"
+        >Contact Me: ratgenowen@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/owen-ratgen-666899200"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/OwenRatgen"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!-- End Footer -->
 
-                <!-- Portfolio Item 03 -->
-                <div class="portfolio__item" data-aos="fade-left" data-aos-delay="100" data-aos-easing="linear" data-aos-duration="1000">
-                    <img src="https://5.imimg.com/data5/SELLER/Default/2021/3/JB/CY/CQ/83906125/website-developer-500x500.jpg" alt="Website" class="portfolio__img">
-                    <div class="portfolio__overlay">
-                        <p class="portfolio__description">I wanted to learn some web development skills to help myself understand the processes so I did exactly that by creating this website. I used resources on the internet to guide me through this project. I used HTML, CSS, and JavaScript. This project gave me some of my first exposure with how to create and manage a website. </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End My Work -->
-
-        <!-- Footer -->
-        <footer class="footer">
-            <a href="mailto:ratgenowen@gmail.com" class="footer-link">Contact Me: ratgenowen@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/owen-ratgen-666899200"><i class="fab fa-linkedin"></i></a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://github.com/OwenRatgen"><i class="fab fa-github"></i></a></li>
-            </ul>
-        </footer>
-        <!-- End Footer -->
-
-        <script src="main.js"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-          </script>
-
-          
-
-    </body>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
