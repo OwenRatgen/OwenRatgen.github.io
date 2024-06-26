@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- This line makes it so the website can work on a computer and mobile devices -->
     <title>Owen Ratgen Portfolio Website</title>
-    <i class="fa-light fa-laptop-code"></i>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -30,7 +29,6 @@
   </head>
 
   <body>
-
     <!-- Introduction -->
     <section
       class="intro"
@@ -62,55 +60,60 @@
 
       <div
         class="about-me__body"
-        data-aos="fade-right"
-        data-aos-delay="100"
-        data-aos-duration="2000"
       >
-        <div class="frontend-skills">
-          <h3>Frontend</h3>
-          <div class="frontend-icon-container"></div>
+        <div class="skills">
+          <div class="skills-card">
+            <img src="./images/azure.svg">
+            <p><strong>Azure</strong></p>
+          </div>
+
+          <div class="skills-card">
+            <img src="./images/html-5.svg">
+            <p><strong>HTML</strong></p>
+          </div>
+
+          <div class="skills-card">
+            <img src="./images/css-3.svg">
+            <p><strong>CSS</strong></p>
+          </div>
+
+          <div class="skills-card">
+            <img src="./images/node-js.svg">
+            <p><strong>NodeJS</strong></p>
+          </div>
+
+          <div class="skills-card">
+            <img src="./images/python.svg">
+            <p><strong>Python</strong></p>
+          </div>
+
+          <div class="skills-card">
+            <img src="./images/java.svg">
+            <p><strong>Java</strong></p>
+          </div>
+
+          <div class="skills-card">
+            <img src="./images/jest.svg">
+            <p><strong>Jest</strong></p>
+          </div>
+
+          <div class="skills-card">
+            <img src="./images/git.svg">
+            <p><strong>Git</strong></p>
+          </div>
+
+          <div class="skills-card">
+            <img src="./images/sql.svg">
+            <p><strong>SQL</strong></p>
+          </div>
+
+          <div class="skills-card">
+            <img src="./images/react.svg">
+            <p><strong>ReactJS</strong></p>
+          </div>
         </div>
 
-        <div class="backend-skills">
-          <h3>Backend</h3>
-          <div class="backend-icon-container"></div>
-        </div>
-        <!-- <p>
-          Ever since I was young, I have been fascinated with technology. I have
-          fond memories of taking apart my old electronic toys and look at the
-          wiring wondering how it worked. I have dug deeper into this
-          fascination by majoring in Computer Science at the University of
-          Minnesota. I am currently in my 4th year and will graduate with a
-          Bachelors of Science in May 2024. I was also recently admitted to the
-          Integrated Masters Program at UMN and will be graduating with my
-          Masters of Science in 2025. I will always step up to the plate no
-          matter how difficult something is. I will not give up until the task
-          at hand is finished and I am not afraid to make mistakes. Where one
-          may look at a mistake and see it as a failure, I see it as an
-          opportunity to learn and move forward. I am driven by curiostiy and
-          ambition which is something that has helped me excel in all areas of
-          my life.
-        </p>
-        <p>
-          Outside of school I am passionate about a number of other things. I am
-          apart of the Club Lacrosse team at the University of Minnesota and
-          during my tenure we placed 7th at the 2022 MCLA National Championship.
-          I am also involved in Greek Life at the University of Minnesota (Beta
-          Theta Pi - Beta Pi Chapter) where I have taken the opportunity to gain
-          leadership experience. I am currently the VP of Recruitment where I
-          have furthered my communication and leadership skills which is
-          something I take very seriously.
-        </p> -->
       </div>
-
-      <!-- <img
-        src="images/F3D62D03-00C2-4E14-8156-95062AC36DE9.JPG"
-        alt="Owen Standing in Front of a Black Bear"
-        class="about-me__img"
-        data-aos="fade-up"
-        data-aos-delay="100"
-        data-aos-duration="3000"
-      /> -->
     </section>
     <!-- End About Me -->
 
@@ -126,87 +129,102 @@
           >
             Work Experiences
           </h2>
-          <div class="sawe__title">
-            <h3>Infor</h3>
-            <h5>May 2022 - September 2022</h5>
+          <div class="sawe"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1900">
+            <div class="sawe__title">
+              <h3>Infor</h3>
+              <h5>May 2022 - September 2022</h5>
+            </div>
+
+            <div class="sawe-div">
+              <!-- /work-experience-1 -->
+              <img src="images/infor_logo.jpg" class="infor-logo" />
+              <p class="sawe-div__description">
+                <strong>Software Development Intern | Remote</strong><br />
+                Developed a client facing process monitoring tool for
+                user-inputted information, leveraging backend query formulation to
+                identify relevant global orders, displayed results in a frontend
+                table. Tracked orders on a global scale to inform the customer
+                where there order currently is in the world.
+              </p>
+            </div>
           </div>
 
-          <div class="sawe-div">
-            <!-- /work-experience-1 -->
-            <img src="images/infor_logo.jpg" class="infor-logo" />
-            <p class="sawe-div__description">
-              During the summer of 2022, I was working at Infor as a Development
-              Intern. This was my first exposure to the Software Engineering
-              field in a professional setting. I created an internal tool that
-              keeps track of every order and information on that order. For this
-              project I used JavaScript in the frontend and Java in the backend.
-              I also worked with the databases by using SQL, wrote backend test
-              cases using Java, and wrote frontend tests using JavaScript where
-              I make sure everything in the UI is working as it should
-              throughout the duration of my intership.
-            </p>
-          </div>
+          <div class="sawe"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1900">
+            <div class="sawe__title">
+              <h3>SPS Commerce</h3>
+              <h5>June 2023 - December 2023</h5>
+            </div>
 
-          <div class="sawe__title">
-            <h3>SPS Commerce</h3>
-            <h5>June 2023 - December 2023</h5>
-          </div>
-
-          <div class="sawe-div">
-            <!-- <div
-              class="sawes"
-              data-aos="fade-right"
-              data-aos-delay="100"
-              data-aos-duration="1900"
-            > -->
-            <img src="images/sps_logo3.webp" class="sps-logo" />
-            <p class="sawe-div__description">
-              During my time at SPS Commerce, I worked on integrating a new
-              GraphQL server on one of the companies existing tools using
-              TypeScript. I have also added additonal functionality to the tool
-              to increase utilization. This project forced me to get comfortable
-              with backend development and has given me the desire to further my
-              learnings within backend development. My biggest takeaway from
-              this internship is that in order to truly grow within anything,
-              you must make yourself become uncomfortable because that is where
-              new ideas flourish.
-            </p>
+            <div class="sawe-div">
+              <!-- <div
+                class="sawes"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1900"
+              > -->
+              <img src="images/sps_logo3.webp" class="sps-logo" />
+              <p class="sawe-div__description">
+                <strong>Software Engineer Intern | Minneapolis, MN</strong><br />
+                Increased development speed on GraphQL query explorer tool by 80%.
+                Integrated Apollo server on the existing company tool using
+                TypeScript, Azure, and Kubernetes. Contributed to the company's
+                Keystone API by implementing schema options for filtering which
+                let developers search for a schema stored by its version, domain,
+                and type.
+              </p>
+            </div>
           </div>
           <!-- /work-experience-2 -->
 
-          <div class="sawe__title">
-            <h3>Trane Technologies</h3>
-            <h4>May 2024 - Present</h4>
-          </div>
+          <div class="sawe"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1900">
+            <div class="sawe__title">
+              <h3>Trane Technologies</h3>
+              <h4>May 2024 - Present</h4>
+            </div>
 
-          <div class="sawe-div">
-            <!-- <div
-              class="sawes"
-              data-aos="fade-right"
-              data-aos-delay="100"
-              data-aos-duration="1900"
-            > -->
-            <img src="images/trane_logo.png" class="trane-logo" />
-            <p class="sawe-div__description">
-              During my time at SPS Commerce, I worked on integrating a new
-              GraphQL server on one of the companies existing tools using
-              TypeScript. I have also added additonal functionality to the tool
-              to increase utilization. This project forced me to get comfortable
-              with backend development and has given me the desire to further my
-              learnings within backend development. My biggest takeaway from
-              this internship is that in order to truly grow within anything,
-              you must make yourself become uncomfortable because that is where
-              new ideas flourish.
-            </p>
-          </div>
+            <div class="sawe-div">
+              <!-- <div
+                class="sawes"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1900"
+              > -->
+              <img src="images/trane_logo.png" class="trane-logo" />
+              <p class="sawe-div__description">
+                <strong>Software Engineer Intern | St. Paul, MN</strong><br />
+                Introduced a React.js based frontend library to increase
+                development speeds throughout the software engineers at the
+                company. Collaborated with the design and development teams to
+                ensure the library meets branding guidelines and functional
+                requirements. Produced reusable components and ensured they are
+                customizable, accessible, and well-documented for future use.
+              </p>
+            </div>
         </div>
       </div>
       <!-- </div> -->
-
-      <a href="#work" class="btn" data-aos="zoom-out" aos-duration="4000"
-        >My Work</a
-      >
+      <div class="work-btn">
+        <a
+          href="./files/Owen_Ratgen_SWE_Resume.pdf"
+          class="btn"
+          data-aos="zoom-out"
+          aos-duration="4000"
+          download="Owen Ratgen's Resume"
+          >My Resume</a
+        >
+      </div>
+      
     </section>
+
     <!--- End School and Work Experiences -->
 
     <!-- My Work -->
