@@ -267,15 +267,16 @@ h3 {
   color: var(--clr-light);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 600px) {
   .about-me {
-    display: grid;
-    grid-template-columns: 1fr 350px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 350px;
     grid-template-areas:
       "title img"
       "subtitle img"
-      "text img";
-    grid-column-gap: 2em;
+      "text img"; */
+    /* grid-column-gap: 2em; */
+    justify-content: center;
     color: var(--clr-light);
   }
 
@@ -288,7 +289,6 @@ h3 {
     grid-row: 2em;
     position: relative;
     left: -2em;
-    width: 75%;
     padding-left: 1em;
     padding-right: calc(200px + 4em);
     color: var(--clr-dark);
@@ -303,6 +303,7 @@ h3 {
   .skills {
     display: grid;
     grid-template-columns: max-content max-content;
+    justify-content: center;
   }
 }
 
