@@ -267,7 +267,7 @@ h3 {
   color: var(--clr-light);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 350px;
