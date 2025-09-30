@@ -382,7 +382,7 @@ h3 {
   border: 0.2rem solid #6600ff;
   box-shadow: 0 0 20px 1px #5800dc;
   width: 300px;
-  height: auto;
+  height: 300px;
 }
 
 @media (min-width: 800px) {
@@ -411,6 +411,12 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     /* width: 50%; */
+  }
+
+  .umn-logo {
+    display: block;
+    width: 300px;
+    height: 300px;
   }
 }
 
